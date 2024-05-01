@@ -1,0 +1,33 @@
+RF Amplifier Controller
+=======================
+
+Features :
+
+- 6 Bands selector
+- Analog Power and SWR display
+- 16x2 LCD Display
+- Temperature Monitor
+- SWR Protection
+- Overheat Protection
+- ALC
+- Power calibration using lookup table
+- LED Operation indicators
+	- STBY 
+	- OPER
+	- ON AIR
+	- BAND 80/40/20
+
+
+
+Update 29 Dec 2023
+------------------
+FWD and REF linearization table is now in FLASH to accomodate more resolution.
+With drawbacks that calibration will have to rewrite the entire FLASH.
+
+FWD power is peak hold now and decay slowly.
+
+
+
+73 DE YB1NWP
+
+
